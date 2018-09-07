@@ -37,6 +37,6 @@ class Dog
     DB[:conn].execute(sql, name)
   end
 
-  def self.create()
+  def update
   end
 end
