@@ -38,7 +38,7 @@ class Dog
   end
 
   def update
-    SQL = <<-SQL
+    sql = <<-SQL
     UPDATE dogs
     SET name = ?, breed = ? WHERE id = ?
     SQL
