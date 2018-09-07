@@ -77,4 +77,7 @@ class Dog
     dog = DB[:conn].execute(sql, id)[0]
     return self.new_from_db(dog)
   end
+
+  def self.find_or_create_by
+  end
 end
