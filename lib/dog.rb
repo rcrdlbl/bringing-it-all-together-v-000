@@ -13,8 +13,10 @@ class Dog
         id INTEGER PRIMARY KEY,
         name TEXT,
         BREED TEXT
-      )
+      );
     SQL
+
+    DB[:conn].execute(sql)
   end
 
 
