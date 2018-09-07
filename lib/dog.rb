@@ -28,5 +28,8 @@ class Dog
   end
 
   def self.find_by_name(name)
+    sql = <<-SQL
+    
+    SQL
   end
 end
